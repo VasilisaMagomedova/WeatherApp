@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("img/background.jpg");
+}
+
+.search {
+  width: 100%;
+  max-width: 600px;
+  margin: 1.5em;
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.search-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.search-card input {
+  width: calc(100%-40px);
+  padding: 0.8em;
+  margin-right: 0.5em;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+  font-family: inherit;
+  font-size: 1.2em;
+}
+
+.search-card button {
+  padding: 0.8em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(16, 110, 47);
+  border-radius: 16px;
+  transition: 0.2s ease-in-out;
+}
+
+.search-card button:hover {
+  background-color: rgb(23, 134, 60);
+}
+
+.weather-top,
+.weather-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-top {
+  margin-bottom: 1.5rem;
+}
+
+.description-left h1 {
+  font-weight: 600;
+  font-size: 3em;
+  margin-bottom: 0.5rem;
+}
+
+.description-left p {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.description-right h2 {
+  font-weight: 500;
+  font-size: 2.3em;
+}
+
+.card {
+  padding: 1em;
+  background-color: rgb(16, 110, 47);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card img,
+.card .value {
+  margin-bottom: 1em;
+}
+
+.card .value {
+  font-size: 2rem;
+}

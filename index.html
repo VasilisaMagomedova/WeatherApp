@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather app</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+	<script src="app.js" defer></script>
+</head>
+<body>
+	<div class="search">
+		<div class="search-card">
+			<input type="text" class="search-bar" placeholder="Search city">
+			<button>Search</button>
+		</div>
+
+		<div class="weather">
+			<div class="weather-top">
+				<div class="description-left">
+					<h1 class="temp">---</h1>
+					<p class="cloudiness">---</p>
+				</div>
+				<div class="description-right">
+					<h2 class="city">---</h2>
+				</div>
+			</div>
+			<div class="weather-bottom">
+				<div class="card">
+					<img src="img/wind.png" alt="Wind" class="card-icon">
+					<p class="value value-speed">---</p>
+					<p class="feature">Wind</p>
+				</div>
+				<div class="card">
+					<img src="img/pressure.png" alt="Air pressure" class="card-icon">
+					<p class="value value-pressure">---</p>
+					<p class="feature">Air pressure</p>
+				</div>
+				<div class="card">
+					<img src="img/humidity.png" alt="Humidity" class="card-icon">
+					<p class="value value-humidity">---</p>
+					<p class="feature">Humidity</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
